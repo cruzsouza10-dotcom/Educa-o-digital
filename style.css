@@ -6,11 +6,13 @@
 }
 
 body{
-    background-color: azure;
+    background-color: rgb(174, 253, 185);
 
 }
 
-header{
-    background-color: black;
-    color: white;
+
+
+.prof{
+    width: 50%;
+    height: 50%;
 }
