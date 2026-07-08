@@ -6,13 +6,28 @@
 }
 
 body{
-    background-color: rgb(174, 253, 185);
+    background-color: rgb(255, 255, 255);
 
 }
 
 
 
 .prof{
-    width: 50%;
+    width: 90%;
     height: 50%;
+}
+
+h1{
+    font-size: 20px;
+    color: black;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
 }
