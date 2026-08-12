@@ -1,0 +1,98 @@
+/* Reset simples e fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container Principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo dos Artigos/Posts */
+.post {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.post h1 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.post h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Lista de Dicas */
+.dicas-lista {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.dicas-lista li {
+    background-color: #eef7fc;
+    border-left: 4px solid #3498db;
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    border-radius: 0 6px 6px 0;
+    transition: transform 0.2s ease;
+}
+
+.dicas-lista li:hover {
+    transform: translateX(5px);
+}
+
+.dicas-lista strong {
+    color: #2980b9;
+}
+
+/* Post de Importância / Próximos Tópicos */
+.importancia {
+    background-color: #eef9f5;
+    border: 1px solid #c8e6c9;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 600px) {
+    .post {
+        padding: 20px;
+    }
+
+    .post h1 {
+        font-size: 1.5rem;
+    }
+}
